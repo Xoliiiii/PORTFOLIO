@@ -20,6 +20,11 @@ p {
     text-align: center;
 }
 
+img {
+    max-width: 100%;
+    height: auto;
+}
+
 
 h1,h2,h3{
     text-align: center;
@@ -71,33 +76,14 @@ h1.heading2{
     padding-bottom:20px;
 }
 
-.navigation-links a{
-    margin: 20px;
-    border-radius: 4px;
-    padding: 15px 15px;
-    text-decoration:none;
-    text-transform:capitalize
-}
 
 .navigation-links{
         display: flex;
-        margin-top: 40px;
+       
         justify-content: center;
     }
 
-.contact-link{
-    background: var(--button-color);
-    box-shadow: var(--box-shadow);
-    color:white;
-    border: 1px solid var(--button-color);
-}
 
-.about-link{
-    background: var(--button-color);
-        box-shadow: var(--box-shadow);
-        color: white;
-        border: 1px solid var(--button-color);
-}
 
 .about-paragraphs{
     margin:10px;
@@ -109,5 +95,20 @@ h1.heading2{
     color: var(--primary-color);
     font-size: 28px;
     text-decoration: none;
+}
+
+.button{
+background: var(--button-color);
+box-shadow: var(--box-shadow);
+color: white;
+border: 1px solid var(--button-color);
+margin: 20px;
+border-radius: 4px;
+padding: 15px 15px;
+text-decoration: none;
+text-transform: uppercase;
+display:flex;
+justify-content:center;
+border-radius: 12px;
 }
 
