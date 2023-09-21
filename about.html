@@ -38,6 +38,9 @@
             </div>
         </div>
     </nav>
+    <h1 class="project-title mt-5">
+        ABOUT ME
+    </h1>
    <h4 class="description mt-5 pt-3"> Front-end developer from Johannesburg,South Africa</h4>
    <div class="container">
    <div class="row about-paragraphs">
@@ -58,21 +61,21 @@
     </p>
    </div>
     </div>
-    <div class="row">
- <div class="col-sm-6 border border-3 shadow-sm p-3 mb-5 bg-body-tertiary rounded">
-<img src="img/profile.jpg">
- </div>
- <div class="col-sm-6 border border-3 shadow-sm p-3 mb-5 bg-body-tertiary rounded">
-    <img src="img/me.jpg">
- </div>
-</div>
-   <h2 id="contact-info">
-    Contact Me
-   </h2>
-    <a href="xolinunge0@gmail.com" class="email-link">📧:xolinunge0@gmail.com</a>
-</body>
-
-<form class="bg">
+    <h1 id="contact-info">Contact Form</h1>
+    <form>
+        <label for="firstName">First Name:</label>
+        <input type="text" id="firstName" name="firstName" required>
     
-</form>
+        <label for="lastName">Last Name:</label>
+        <input type="text" id="lastName" name="lastName" required>
+    
+        <label for="cellphone">Cellphone Number:</label>
+        <input type="tel" id="cellphone" name="cellphone" pattern="[0-9]{10}" required>
+    
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required>
+    
+        <input type="submit" value="Submit">
+    </form>
+</body>
 </html>
