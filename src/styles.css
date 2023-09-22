@@ -190,3 +190,9 @@ border-radius: 12px;
     padding:5px;
     margin:3rem;
  }
+
+ .about , #contact-info {
+    color:var(--primary-color);
+ }
+
+ 
