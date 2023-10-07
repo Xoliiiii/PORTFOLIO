@@ -16,7 +16,7 @@ serif;
 :root{
     --background-color:rgba(215, 225, 225, 1);
     --footer-color: rgba(177, 220, 220, 1);
-    --button: rgba(178, 226, 226, 1) , rgba(0, 0, 0, 0.2);
+    --button: rgb(0 50 50 / 63%);
     --section-color: rgba(245, 245, 245, 1);
 }
 
@@ -35,8 +35,14 @@ h1 , h2 , h3 , h4 {
 
 button{
 font-family: 'Poppins',sans-serif;
-box-shadow: 4px 0px 4px 4px rgba(0, 0, 0, 0.25);
+font-weight:bold;
+box-shadow: 4px 0px 4px 0px rgba(0, 0, 0, 0.25);
+background-color: var(--button);
+padding:10px;
+border-radius:20px;
 }
+
+
 
 .logo{
     max-width:50px;}
@@ -44,7 +50,7 @@ box-shadow: 4px 0px 4px 4px rgba(0, 0, 0, 0.25);
   .footer {
       background-color: var(--footer-color);
       color: #fff;
-      padding: 20px;
+      padding: 10px;
       position: fixed;
       bottom: 0;
       width: 100%;
@@ -59,3 +65,26 @@ box-shadow: 4px 0px 4px 4px rgba(0, 0, 0, 0.25);
   .social-icon{
     margin-right:40px;
   }
+
+  .button-link{
+    text-decoration: none;
+    color:black;
+  }
+
+  .weatherapp{
+    max-width: 80%;
+    height:auto;
+    border-radius: 6px;
+  }
+
+  .project-description{
+    font-size:15px;
+  }
+
+ .introduction{
+  text-align:center
+ }
+
+ .button{
+  text-align:center;
+ }
