@@ -13,3 +13,49 @@ sans-serif;
 font-family: 'Italiana',
 serif;
 */
+:root{
+    --background-color:rgba(215, 225, 225, 1);
+    --footer-color: rgba(177, 220, 220, 1);
+    --button: rgba(178, 226, 226, 1) , rgba(0, 0, 0, 0.2);
+    --section-color: rgba(245, 245, 245, 1);
+}
+
+body {
+    background-color: var(--background-color);
+}
+
+P{
+    font-family: 'Poppins',sans-serif;
+}
+
+h1 , h2 , h3 , h4 {
+    font-family: 'Italiana',
+            serif;
+}
+
+button{
+font-family: 'Poppins',sans-serif;
+box-shadow: 4px 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.logo{
+    max-width:50px;}
+
+  .footer {
+      background-color: var(--footer-color);
+      color: #fff;
+      padding: 20px;
+      position: fixed;
+      bottom: 0;
+      width: 100%;
+  }
+
+  .socials {
+    display:flex;
+    justify-content:center;
+    align-items:center;
+  }
+
+  .social-icon{
+    margin-right:40px;
+  }
