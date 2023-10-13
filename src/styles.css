@@ -39,6 +39,7 @@ box-shadow: 4px 0px 4px 0px rgba(0, 0, 0, 0.25);
 background-color: var(--button);
 padding:10px;
 border-radius:20px;
+width: 200px;
 }
 
 
@@ -113,6 +114,31 @@ border-radius:20px;
  .interestsection{
   max-width: 250px;
   padding: 30px;
+ }
+
+ .projectone img{
+  display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    border-radius: 35px;
+    width:400px;
+ }
+
+ .colored-div {
+   background-color: rgba(245, 245, 245, 1);
+   width: 100%;
+ }
+
+ .skills {
+   max-width: 100%;
+   height: auto;
+ }
+
+ @media only screen and (max-width: 600px) {
+   .skills {
+     max-width: 80%;
+   }
  }
 
  @media (max-width: 576px) {
