@@ -59,13 +59,20 @@
     </header>
    <!-- main content  -->
    <h3 class="formheading">Let's get in touch.</h3>
-<div class="center">
+<div class="contactform">
     <form id="myForm" action="#">
-        <input type="name" id="name"placeholder="Name"><br>
-        <input type="text" placeholder="Surname"><br>
-        <input type="email" placeholder="Email"><br>
-        <textarea placeholder="Message"></textarea><br>
-        <button id="formbtn"type="submit">Submit</button>
+     <label for="name" class="name">Name:</label><br><br>
+     <input type="text" name="name" id="name" required/><br><br>
+    <label for="surname" class="surname">Surname:</label><br><br>
+    <input type="text" name="surname" id="surname"><br><br>
+    <label for="email" class="email">Email Address:</label><br><br>
+    <input type="email" name="email" id="email" required><br><br>
+    <label for="message" class="query">Leave us a message:</label><br><br>
+    <textarea name="messsage" id="message" cols="30" rows="4" class="query">
+    </textarea><br><br>
+    <button>
+       Submit
+    </button>
     </form>
 </div>
    <!-- main content ends -->
@@ -82,6 +89,11 @@
         <div class="social-icon">
             <a href="https://www.linkedin.com/in/xolisa-nunge-441b25264?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
                 target="_blank"><i class="fa-brands fa-linkedin fa-2xl" style="color: #000000;"></i></a>
+        </div>
+        <div class="social-icon">
+            <a href="https://github.com/Xoliiiii" target="_blank">
+                <i class="fa-brands fa-github fa-2xl" style="color: #000000;"></i>
+            </a>
         </div>
     </div>
 </footer>
