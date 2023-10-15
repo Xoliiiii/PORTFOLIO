@@ -1,11 +1,9 @@
-function contactUs (event){
+function contactUs(event){
     event.preventDefault();
     let input = document.querySelector("#name");
-    console.log(input.valure);
+    console.log(input.value);
+
 }
-
-
-
 
 
 let form = document.querySelector ("form");
