@@ -1,7 +1,7 @@
 function contactUs(event){
     event.preventDefault();
     let input = document.querySelector("#name");
-    console.log(input.value);
+    alert(`We will be in contact with you soon ${input.value}!❤️🍃`);
 
 }
 
