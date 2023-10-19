@@ -166,3 +166,10 @@ width: 200px;
   margin-left:auto;
   margin-right:auto;
 }
+
+@media (max-width: 768px) {
+  body {
+    overflow-x: hidden;
+    width: 100%;
+  }
+}
