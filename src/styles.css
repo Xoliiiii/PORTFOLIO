@@ -90,8 +90,9 @@ width: 200px;
  }
 
  .about-image{
-  max-width: 180px;
+  max-width:55%;
   padding: 15px;
+  border-radius: 20px;
  }
 
  .aboutheading{
@@ -124,8 +125,9 @@ width: 200px;
     border-radius: 35px;
     width:400px;
  }
-   .container {
+   .about-container {
       text-align: center;
+      padding:10px;
     }
   
     .skills {
@@ -173,3 +175,16 @@ width: 200px;
     width: 100%;
   }
 }
+
+
+.skills-container{
+  background-color:rgb(233, 235, 235);
+  width:100%;
+ padding:10px;
+  text-align:center;
+}
+
+.skill{
+  max-width:100px;
+}
+
