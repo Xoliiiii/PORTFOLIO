@@ -40,9 +40,18 @@ background-color: var(--button);
 padding:10px;
 border-radius:20px;
 width: 200px;
+transition: all ease-in-out 1ms;
 }
 
+button:hover{
+  background-color: var(--background-color);
+  border-color:var(--background-color);
+}
 
+.author{
+  font-family: 'Rubik Doodle Shadow', system-ui;
+  font-size:50px;
+}
 
 .logo{
     max-width:50px;}
@@ -81,9 +90,9 @@ width: 200px;
     font-size:15px;
   }
 
- .introduction{
-  text-align:center
- }
+.introduction{
+  text-align:center;
+}
 
  .button{
   text-align:center;
@@ -209,4 +218,10 @@ width: 200px;
   color:white;
   background-color:rgba(102, 196, 199, 0.479);
   border: 1px solid rgba(102, 196, 199, 0.479);
+}
+
+.homepage{
+  display:flex;
+  justify-content:center;
+  align-items:center;
 }
