@@ -43,6 +43,11 @@ width: 200px;
 transition: all ease-in-out 1ms;
 }
 
+.button-link{
+  text-align:center;
+
+ }
+
 button:hover{
   background-color: var(--background-color);
   border-color:var(--background-color);
@@ -94,9 +99,7 @@ button:hover{
   text-align:center;
 }
 
- .button{
-  text-align:center;
- }
+
 
  .about-image{
   max-width:55%;
@@ -225,3 +228,17 @@ button:hover{
   justify-content:center;
   align-items:center;
 }
+
+@media (max-width: 600px) {
+  .row.homepage {
+    flex-direction: column;
+  }
+  .col-6 {
+    width: 100%;
+  }
+}
+
+.project-page{
+  text-align:center
+}
+
