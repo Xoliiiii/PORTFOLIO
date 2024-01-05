@@ -39,6 +39,13 @@ h1 , h2 , h3 , h4, h5 , h6 {
     font-family: 'Italiana', serif;
 }
 
+form{
+  display:flex;
+  justify-content:center;
+  align-items:center;
+
+}
+
 
 .button-link{
   text-align:center;
@@ -181,24 +188,6 @@ h1 , h2 , h3 , h4, h5 , h6 {
  }
 
 
-
- .formheading{
-  text-align:center;
- }
-
-.contactform{
-  text-align:center;
-  border:1px solid rgba(247, 251, 243, 1);
-  background-color: rgba(247, 251, 243, 1);
-  box-shadow: 10px 5px 5px  rgba(247, 251, 243, 1);
-  width: 500px;
-  border-radius:20px;
-  padding: 20px;
-  display:block;
-  margin-left:auto;
-  margin-right:auto;
-}
-
 @media (max-width: 768px) {
   body {
     overflow-x: hidden;
@@ -257,3 +246,54 @@ h1 , h2 , h3 , h4, h5 , h6 {
   text-align:center
 }
 
+.contact-form{
+  border: 2px solid black;
+  padding: 20px; 
+  width: 400px;
+  box-shadow:10px 5px 5px rgba(0, 0, 0, 0.25);
+  border-radius: 10px;
+}
+
+.contact-heading {
+  text-align:center;
+}
+
+.form-button{
+  display:block;
+  margin: 0 auto;
+  padding :10px;
+  border-radius :20px;
+  width: 250px;
+  transition: all ease-in-out 1ms; 
+  font-family: 'Poppins',sans-serif;
+  box-shadow: 4px 0px 4px 0px rgba(0, 0, 0, 0.25);
+  background-color: var(--button);
+  font-weight:bold;
+  transition: all ease-in-out 1ms;
+}
+
+.form-button:hover{
+  background-color: var(--background-color);
+  border-color:var(--background-color); 
+}
+
+
+@media (max-width: 600px) {
+  form{
+    width: 100%; /* To ensure the form adjusts to the width of the screen */
+    max-width: 300px; /* Set a maximum width for the form */
+    margin: 0 auto; /* Center the form horizontally */
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+.projects{
+  font-family: 'Rubik Doodle Shadow', system-ui;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  align-items: center
+}
